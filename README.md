@@ -51,9 +51,9 @@ npm run start
 
 ---
 
-## **API Endpoints**
+# **API Endpoints**
 
-# **Get all recipes**
+## **Get all recipes**
 - Endpoint ``GET /recipes``
 - Description: Retrieves all recipes from the database.    
 - Response Example
@@ -85,7 +85,7 @@ npm run start
 ]
 ``` 
 
-# **Get user group profile based on group id**
+## **Get user group profile based on group id**
 - Endpoint ``GET /usergroup/:groupId``
 - Description: Retrieves user group profile based on the user group id from the database
 - Response Example
@@ -157,7 +157,7 @@ npm run start
 }
 ```
 
-# **Add new user group**
+## **Add new user group**
 - Endpoint ``POST /usergroup`` 
 - Description: Creates a new user group with the provided information
 - Request Body:
@@ -193,7 +193,7 @@ npm run start
 }
 ```
 
-# **Adjust user group**
+## **Adjust user group**
 - Endpoint ``PUT /usergroup/:groupId``  
 - Description: Add or remove 1 user from a specific user group
 - Request Body for remove user:
@@ -215,7 +215,7 @@ npm run start
 }
 ```
 
-# **Get 5 recipes ranked from best to worst**
+## **Get 5 recipes ranked from best to worst**
 - Endpoint ``GET /usergroup/:groupId/recipe``
 - Description: Retrieves 5 recipes for a user group, ranked based on members' allergies and dislikes
 - Response Example
@@ -336,7 +336,7 @@ npm run start
 ]
 ```
 
-# **Get 14-day meal plan**  
+## **Get 14-day meal plan**  
 - Endpoint ``GET /usergroup/:groupId/mealplan``
 - Description: Retrieves a 14-day meal plan for a user group, based on members' dietary 
 - Response Example
